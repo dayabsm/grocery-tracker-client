@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		638122332A852356001985F1 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 638122322A852356001985F1 /* CodeScanner */; };
+		638122352A87EC0F001985F1 /* EditStockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638122342A87EC0F001985F1 /* EditStockView.swift */; };
 		63E23CCC2A7EA07C00129360 /* grocery_tracker_clientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E23CCB2A7EA07C00129360 /* grocery_tracker_clientApp.swift */; };
 		63E23CCE2A7EA07C00129360 /* InventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E23CCD2A7EA07C00129360 /* InventoryView.swift */; };
 		63E23CD02A7EA07D00129360 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E23CCF2A7EA07D00129360 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		638122342A87EC0F001985F1 /* EditStockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditStockView.swift; sourceTree = "<group>"; };
 		63E23CC82A7EA07C00129360 /* grocery-tracker-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "grocery-tracker-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E23CCB2A7EA07C00129360 /* grocery_tracker_clientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grocery_tracker_clientApp.swift; sourceTree = "<group>"; };
 		63E23CCD2A7EA07C00129360 /* InventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryView.swift; sourceTree = "<group>"; };
@@ -68,12 +70,13 @@
 				63E23CE92A83FF5B00129360 /* Info.plist */,
 				63E23CDE2A8042EA00129360 /* Models */,
 				63E23CCB2A7EA07C00129360 /* grocery_tracker_clientApp.swift */,
-				63E23CCD2A7EA07C00129360 /* InventoryView.swift */,
 				63E23CCF2A7EA07D00129360 /* Assets.xcassets */,
 				63E23CD12A7EA07D00129360 /* grocery_tracker_client.entitlements */,
 				63E23CD22A7EA07D00129360 /* Preview Content */,
 				63E23CE32A8043DF00129360 /* StockView.swift */,
+				63E23CCD2A7EA07C00129360 /* InventoryView.swift */,
 				63E23CE52A83EEDA00129360 /* StockDetailView.swift */,
+				638122342A87EC0F001985F1 /* EditStockView.swift */,
 				63E23CE72A83FD1A00129360 /* AddStockView.swift */,
 			);
 			path = "grocery-tracker-client";
@@ -175,6 +178,7 @@
 				63E23CE42A8043DF00129360 /* StockView.swift in Sources */,
 				63E23CDB2A7EA30200129360 /* Inventory.swift in Sources */,
 				63E23CCE2A7EA07C00129360 /* InventoryView.swift in Sources */,
+				638122352A87EC0F001985F1 /* EditStockView.swift in Sources */,
 				63E23CE02A8042FB00129360 /* Stock.swift in Sources */,
 				63E23CE82A83FD1A00129360 /* AddStockView.swift in Sources */,
 				63E23CE62A83EEDA00129360 /* StockDetailView.swift in Sources */,

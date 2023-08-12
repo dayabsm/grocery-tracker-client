@@ -15,13 +15,15 @@ struct InventoryView: View {
         NavigationStack {
             if !self.isLoading {
                 VStack {
-                    List(inventory, id: \.id) { stock in
-                        NavigationLink {
-                            StockDetailView(stock: stock)
-                        } label: {
-                            StockView(stock: stock)
-                        }.swipeActions {
-                            Button(role: .destructive) { print("Hello World") } label: { Label("Delete", systemImage: "trash") }
+                    List {
+                        ForEach($inventory) { $stock in
+                            NavigationLink {
+                                StockDetailView(stock: $stock, inventory: $inventory)
+                            } label: {
+                                StockView(stock: stock)
+                            }.swipeActions {
+                                Button(role: .destructive) { print("Hello World") } label: { Label("Delete", systemImage: "trash") }
+                            }
                         }
                     }.navigationTitle("Your Pantry").listStyle(.inset).refreshable {
                         self.inventory = await loadInventory()
